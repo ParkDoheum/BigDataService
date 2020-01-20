@@ -3,8 +3,6 @@ package com.hk.exam.ch4;
 public class FlowEx5 {
 
 	public static void main(String[] args) {
-		
-
 		//score 값이 90이상이면 grade에 "A"저장
 		//98점 이상이면 opt 에 "+"를 저장
 		//94점 미만이면 opt 에 "-"를 저장
@@ -46,3 +44,14 @@ public class FlowEx5 {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
