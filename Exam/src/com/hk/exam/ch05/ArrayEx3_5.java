@@ -18,7 +18,17 @@ public class ArrayEx3_5 {
 			int temp = arr[i];
 			arr[i] = arr[rVal];
 			arr[rVal] = temp;
-		}					
+		}			
+		
+		for(int i=arr.length-1; i>0; i--) {
+			for(int z=0; z<i; z++) {
+				if(arr[z] > arr[z+1]) {
+					int temp = arr[z];
+					arr[z] = arr[z+1];
+					arr[z+1] = temp;
+				}
+			}
+		}
 		
 		for(int i : arr) {
 			System.out.println(i);
