@@ -18,9 +18,7 @@ public class ArrayEx3_5 {
 			int temp = arr[i];
 			arr[i] = arr[rVal];
 			arr[rVal] = temp;
-		}		
-		
-		
+		}					
 		
 		for(int i : arr) {
 			System.out.println(i);
