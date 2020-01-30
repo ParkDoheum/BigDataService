@@ -8,7 +8,7 @@ public class ArrayEx3_6 {
 		//1~30 사이의 랜덤한 수를 중복되지 않게 arr에 10개 담는다.
 		int i=0; 
 		while(i<arr.length) {
-			arr[i] = (int) (Math.random() * 10) + 1;
+			arr[i] = (int) (Math.random() * 30) + 1;
 			int j=0;
 			while(j<i) {
 				if(arr[j++] == arr[i]) {
