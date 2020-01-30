@@ -17,8 +17,8 @@ public class ArrayEx3_3 {
 		while(true) {
 			System.out.print("값을 입력해 주세요 (종료: 0): ");
 			int num = scan.nextInt();
+			if(num == 0) { break; }
 			arr[i++] = num;
-			if(num == 0) {break;}
 		}
 		
 		for(int z=0; z<(i-1); z++) {
